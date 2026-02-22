@@ -6,10 +6,12 @@ import { Projects } from "@/sections/Projects";
 // import { Testimonials } from "@/sections/Testimonials";
 import { Contact } from "@/sections/Contact";
 import { Footer } from "./layout/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <div className="min-h-screen overflow-x-hidden">
+      <Analytics />
       <Navbar />
       <main>
         <Hero />
