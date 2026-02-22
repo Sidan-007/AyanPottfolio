@@ -29,7 +29,7 @@ export const Hero = () => {
       <div className="absolute inset-0">
         <img
           src="/bg.png"
-          alt="Hero image"
+          alt="Background image"
           className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background" />
@@ -91,7 +91,9 @@ export const Hero = () => {
                 </Button> */}
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
-                Download Resume
+                <a href="/AyanResume.pdf" download="AyanResume.pdf">
+                  Download Resume
+                </a>
               </AnimatedBorderButton>
             </div>
 
@@ -131,9 +133,9 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile.png"
-                  alt="Pedro Machado"
-                  className="w-full aspect-4/5 object-fill rounded-2xl"
+                  src="/AyanProfile1.png"
+                  alt="Ayan Sidatar"
+                  className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
 
                 {/* Floating Badge */}
@@ -143,15 +145,15 @@ export const Hero = () => {
                     <span className="text-sm font-medium">
                       Available for work
                     </span>
-                  </div> */}
-                {/* </div> */}
+                  </div>
+                </div> */}
                 {/* Stats Badge */}
                 {/* <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">Fresher</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
-                  </div> */}
-                {/* </div> */}
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -160,7 +162,7 @@ export const Hero = () => {
         {/* Skills Section */}
         <div className="mt-20 animate-fade-in animation-delay-600">
           <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
+            Technologies I Learn And Work with..
           </p>
           <div className="relative overflow-hidden">
             <div
