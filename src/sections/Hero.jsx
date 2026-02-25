@@ -28,7 +28,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/bg.png"
+          src="/Fave2.png"
           alt="Background image"
           className="w-full h-full object-cover opacity-40"
         />

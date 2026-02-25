@@ -1,40 +1,54 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "Passed Out - 2025",
+    role: "MERN Stack Web Developer",
+    company: "",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "A fresh graduate with a build-first mindset. I specialize in creating responsive, data-driven web applications using MongoDB, Express, React,  Next, and Node.js. Committed to writing DRY (Don't Repeat Yourself) code and staying up-to-date with the latest JavaScript trends.",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "Available - 2026",
+    role: "Available For Work",
+    company: "",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "🚀 Available for MERN Stack Roles | React & Node.js Specialist | JavaScript & Next.js Enthusiast | Let's Connect!",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
     current: false,
   },
-  {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
-    current: false,
-  },
+  // {
+  //   period: "2019 — 2020",
+  //   role: "Junior Developer",
+  //   company: "StartUp Labs",
+  //   description:
+  //     "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
+  //   technologies: ["React", "Node.js", "MongoDB", "AWS"],
+  //   current: false,
+  // },
+  // {
+  //   period: "2018 — 2019",
+  //   role: "Freelance Developer",
+  //   company: "Self-Employed",
+  //   description:
+  //     "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
+  //   technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+  //   current: false,
+  // },
 ];
 
 export const Experience = () => {
@@ -69,10 +83,7 @@ export const Experience = () => {
           <p
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
-          >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
-          </p>
+          ></p>
         </div>
 
         {/* Timeline */}

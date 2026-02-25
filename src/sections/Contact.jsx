@@ -106,8 +106,8 @@ export const Contact = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            Have Any Position Related to me? I'd love to hear about it. Send me
+            a message and let's discuss how we can work together.
           </p>
         </div>
 
@@ -243,8 +243,8 @@ export const Contact = () => {
               </div>
               <p className="text-muted-foreground text-sm">
                 I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
-                let's talk!
+                Whether you need a full-time Mern Stack Developer, Frontend
+                Developer or a freelance consultant, let's talk!
               </p>
             </div>
           </div>

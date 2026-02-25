@@ -32,10 +32,14 @@ export const Navbar = () => {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="flex items-center gap-2 text-xl font-bold tracking-tight hover:text-primary  hover:scale-110"
+          className="flex items-center gap-1 text-xl font-bold tracking-tight hover:text-primary  hover:scale-110"
         >
-          <img src="/logo.png" alt="logo" className="w-11 h-11 rounded-full" />
-          Ayan.
+          <img
+            src="/FaveIcon.png"
+            alt="logo"
+            className="w-11 h-11 rounded-full"
+          />
+          AS.
         </a>
 
         {/* Desktop Nav */}
